@@ -92,7 +92,7 @@ grpcio-status==1.62.2
 gunicorn==22.0.0
 h11==0.14.0
 h5py==3.12.1
-htr-pipeline==1.2.0
+git+https://github.com/githubharald/HTRPipeline.git
 httpcore==1.0.7
 httplib2==0.22.0
 httpx==0.28.1

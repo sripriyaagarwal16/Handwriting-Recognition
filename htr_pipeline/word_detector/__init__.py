@@ -17,7 +17,7 @@ from .iou import compute_iou
 def _load_model():
     """Loads model and model metadata."""
     ort_session = ort.InferenceSession(resource_filename('htr_pipeline', 'models/detector.onnx'),
-                                       providers=['CUDAExecutionProvider', 'CPUExecutionProvider'])
+                                       providers=['CPUExecutionProvider'])
 
     return ort_session
 

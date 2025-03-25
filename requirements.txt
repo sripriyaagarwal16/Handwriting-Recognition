@@ -37,7 +37,6 @@ fsspec==2024.10.0
 google-auth==2.32.0
 googleapis-common-protos==1.63.2
 grip==4.6.1
-grpy==1.4.0
 h11==0.14.0
 h5py==3.12.1
 httpx==0.28.1

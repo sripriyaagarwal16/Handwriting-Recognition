@@ -13,7 +13,7 @@ from .ctc import ctc_best_path, ctc_single_word_beam_search, PrefixTree
 def _load_model():
     """Loads model and model metadata."""
     ort_session = ort.InferenceSession(resource_filename('htr_pipeline', 'models/reader.onnx'),
-                                       providers=['CUDAExecutionProvider', 'CPUExecutionProvider'])
+                                       providers=['CPUExecutionProvider'])
     with open(resource_filename('htr_pipeline', 'models/reader.json')) as f:
         chars = json.load(f)['chars']
     return ort_session, chars

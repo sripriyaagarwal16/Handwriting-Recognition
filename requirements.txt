@@ -21,7 +21,6 @@ charset-normalizer==3.1.0
 click==8.1.4
 colorama==0.4.6
 confection==0.1.5
-contourpy==1.2.1 hata
 cycler==0.12.1
 django==5.0.1
 djangorestframework==3.15.2
